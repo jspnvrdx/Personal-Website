@@ -80,7 +80,7 @@ nav ul li a:hover {
 
 .wrapper .portfolio figure {
     display: inline-flex;
-    margin: 0;
+    margin: auto;
 }
 
 .wrapper .portfolio>figure,
