@@ -69,13 +69,16 @@ nav ul li a:hover {
 }
 
 .portfolio h2{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    font-size: 7vh;
     text-align: center;
     margin-bottom: 10vh;
 }
 
 .wrapper .portfolio figure {
     display: inline-flex;
-    margin: 0
+    justify-content: center;
 }
 
 
@@ -103,29 +106,29 @@ figcaption,
     padding: 20px 15vh;
     border: 1px solid;
     color: black;
+    font-weight: bolder;
     text-decoration: none;
 }
 
 .portfolio figure figcaption a:hover {
     background-color: rgb(255, 72, 72);
-    color: beige;
-    border: none;
+    font-weight: bolder;
     animation-name: fade-in;
     animation-duration: 1s;
 }
 
 .separator-line {
     height: 1px;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     background-color: rgb(255, 43, 43);
 }
 
 @keyframes fade-in {
     from{
-        opacity: 0;
+        background-color: white;
     }
     to{
-        opacity: 1;
+        background-color: rgb(255, 72, 72);
     }
 }
