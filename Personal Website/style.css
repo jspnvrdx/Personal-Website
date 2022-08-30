@@ -15,7 +15,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .wrapper {
     width: 80%;
     margin: auto;
@@ -68,6 +67,7 @@ nav ul li a:hover {
 
 #portfolio {
     padding-top: 30vh;
+    margin-bottom: 20vh;
 }
 
 #portfolio h2{
@@ -117,7 +117,6 @@ figcaption{
 
 #portfolio figure figcaption a:hover {
     background-color: rgb(255, 72, 72);
-    font-weight: bolder;
     animation-name: fade-in;
     animation-duration: 1s;
 }
@@ -130,19 +129,39 @@ figcaption{
 }
 
 footer{
-    padding-top: 5vh;
-
     width: 90%;
-    margin: auto;
+    margin: 35vh auto 10vh;
     display: flex;
+    justify-content: space-between
 }
 
-footer a{
+footer .left a{
     text-decoration: none;
     color: black;
     font-family: 'Qwitcher Grypen', cursive;
     font-size: 50px;
-    margin-bottom: 2vh;
+}
+
+footer .left ul{
+    margin: 5vh auto 0;
+}
+
+footer .left ul li{
+    display: inline-block;
+    margin-right: 5vh;
+}
+
+footer .left ul a{
+    text-decoration: none;
+    color: rgb(255, 72, 72);
+    font-size: 30px;
+}
+footer .left ul li a:hover{
+    animation: flip 2s;
+}
+
+footer .right > tr, td{
+    border: 1px solid;
 }
 
 @keyframes fade-in {
