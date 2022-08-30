@@ -1,12 +1,14 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
 
 /* ----------- */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -56,7 +58,7 @@ nav ul li a:hover {
 }
 
 .wrapper header h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: rgb(255, 43, 43);
 }
 
@@ -64,11 +66,11 @@ nav ul li a:hover {
     font-size: larger;
 }
 
-.portfolio {
+#portfolio {
     padding-top: 30vh;
 }
 
-.portfolio h2{
+#portfolio h2{
     border-top: 2px solid red;
     border-bottom: 2px solid red;
     font-size: 7vh;
@@ -76,32 +78,36 @@ nav ul li a:hover {
     margin-bottom: 10vh;
 }
 
-.wrapper .portfolio figure {
-    display: inline-flex;
+ figure {
+    display: flex;
 }
 
 
-.wrapper .portfolio>figure,
+.wrapper #portfolio>figure,
 figcaption,
 .vertical-line {
     margin: 5vh;
 }
 
-.portfolio ul {
+figcaption{
+    width: 40%;
+}
+
+#portfolio ul {
     margin-left: 20px;
 }
 
-.portfolio .vertical-line {
+#portfolio .vertical-line {
     width: 1px;
     background-color: rgb(255, 43, 43);
 }
 
-.wrapper .portfolio img {
+.wrapper #portfolio img {
     margin: auto;
     height: 300px;
 }
 
-.portfolio figure figcaption a {
+#portfolio figure figcaption a {
     padding: 20px 15vh;
     border: 1px solid;
     color: black;
@@ -109,7 +115,7 @@ figcaption,
     text-decoration: none;
 }
 
-.portfolio figure figcaption a:hover {
+#portfolio figure figcaption a:hover {
     background-color: rgb(255, 72, 72);
     font-weight: bolder;
     animation-name: fade-in;
@@ -121,6 +127,22 @@ figcaption,
     width: 90%;
     margin: 0 auto;
     background-color: rgb(255, 43, 43);
+}
+
+footer{
+    padding-top: 5vh;
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 50px;
+    margin-bottom: 2vh;
 }
 
 @keyframes fade-in {
