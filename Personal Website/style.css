@@ -70,7 +70,7 @@ nav ul li a:hover {
     margin-bottom: 20vh;
 }
 
-#portfolio h2{
+#portfolio h2 {
     border-top: 2px solid red;
     border-bottom: 2px solid red;
     font-size: 7vh;
@@ -78,7 +78,7 @@ nav ul li a:hover {
     margin-bottom: 10vh;
 }
 
- figure {
+figure {
     display: flex;
 }
 
@@ -89,7 +89,7 @@ figcaption,
     margin: 5vh;
 }
 
-figcaption{
+figcaption {
     width: 40%;
 }
 
@@ -128,47 +128,50 @@ figcaption{
     background-color: rgb(255, 43, 43);
 }
 
-footer{
+footer {
     width: 90%;
     margin: 35vh auto 10vh;
     display: flex;
     justify-content: space-between
 }
 
-footer .left a{
+footer .left a {
     text-decoration: none;
     color: black;
     font-family: 'Qwitcher Grypen', cursive;
     font-size: 50px;
 }
 
-footer .left ul{
+footer .left ul {
     margin: 5vh auto 0;
 }
 
-footer .left ul li{
+footer .left ul li {
     display: inline-block;
     margin-right: 5vh;
 }
 
-footer .left ul a{
+footer .left ul a {
     text-decoration: none;
     color: rgb(255, 72, 72);
     font-size: 30px;
 }
-footer .left ul li a:hover{
+
+footer .left ul li a:hover {
     animation: flip 2s;
 }
 
-footer .right > tr, td{
+footer .right>tr,
+td {
     border: 1px solid;
 }
 
 @keyframes fade-in {
-    from{
+    from {
         background-color: white;
     }
-    to{
+
+    to {
         background-color: rgb(255, 72, 72);
     }
 }
